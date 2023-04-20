@@ -1,6 +1,5 @@
 # TP 0  
-Version del compilador: gcc version 12.2.0 (Ubuntu 12.2.0-3ubuntu1)  
-
+Versión del compilador: gcc version 12.2.0 (Ubuntu 12.2.0-3ubuntu1)  
 ## Sea bienvenido a la guía del buen alumno :D   
 
 **Para hacer su trabajo más fácil, siga los siguentes pasos  :smiley:**  
