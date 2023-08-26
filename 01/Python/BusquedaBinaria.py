@@ -1,9 +1,14 @@
+
+import time
+inicio = time.time()
+
+cantidadElemArray = 100000000
+elemBuscado = 1
+
 Array = [ ]
-for i in range(100):
+for i in range(cantidadElemArray):
     numero = i
     Array.append(numero + 1)
-
-print(Array)
 
 def busquedaBinaria(Array, numeroAbuscar):
   flag = False
@@ -27,4 +32,7 @@ def busquedaBinaria(Array, numeroAbuscar):
 
   return pivote
 
-busquedaBinaria(Array, numeroAbuscar=1)
+busquedaBinaria(Array, elemBuscado)
+
+fin = time.time()
+print(fin-inicio) 
