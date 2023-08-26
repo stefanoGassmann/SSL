@@ -3,7 +3,7 @@ import time
 inicio = time.time()
 
 cantidadElemArray = 100000000
-elemBuscado = 1
+elemBuscado = 50000000000
 
 Array = [ ]
 for i in range(cantidadElemArray):
